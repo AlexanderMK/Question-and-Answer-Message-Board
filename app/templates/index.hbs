@@ -9,4 +9,10 @@
   </div>
 </div>
 
+<ul>
+  {{#each model as |message|}}
+     <li>{{message.question}}'s {{message.author}} of {{rental.notes}}</li>
+  {{/each}}
+</ul>
+
 {{#link-to 'about'}}About{{/link-to}}
