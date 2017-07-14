@@ -1,0 +1,17 @@
+{ "messages": [{
+    "question": "How old is your best friend?",
+    "author": "Alexander MK",
+    "answer": "Collins",
+    "notes": "We have been friends for over 24 years."
+    }, {
+    "question": "Which is better? The 5.6l, Landcruiser L200 or a 5.6, Lexus LX 570 on off road",
+    "author": "Kelvin Kimani",
+    "answer":"Landcruiser L200",
+    "notes": "Just tell us which is better among these two 4*4 titans"
+    }, {
+    "question": "Between Angular JS and Ember JS, which was quicker to learn?",
+    "author": "Emmanuel Michira",
+    "answer": "Ember JS",
+    "notes": "Angular JS is good for SPAs while Ember JS is used on complex applications"
+    }]
+}
