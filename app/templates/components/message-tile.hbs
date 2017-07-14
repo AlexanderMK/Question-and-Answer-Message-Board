@@ -1,0 +1,7 @@
+<li>
+  {{message.author}}'s question is:<br> {{message.question}}?{{message.answer}} {{#if isNotesShowing}}
+    <p>{{message.notes}} </p>
+  {{else}}
+    <button{{action 'notesShow'}}> Show Additional Notes</button>
+  {{/if}}
+</li>
