@@ -11,7 +11,7 @@
 
 <ul>
   {{#each model as |message|}}
-     <li>{{message.question}}'s {{message.author}} of {{rental.notes}}</li>
+    {{message-tile message=message}}
   {{/each}}
 </ul>
 
